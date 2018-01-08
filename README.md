@@ -25,16 +25,14 @@ More information at [pivx.org](http://www.pivx.org) Visit our ANN thread at [Bit
 
 ### Reward Distribution
 
-<table>
-<th colspan=4>PoW Phase</th>
-<tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th><th>Duration (Days)</th></tr>
-<tr><td>1</td><td>60,000 PIV</td><td>Initial Premine</td><td>0 Days</td></tr>
-<tr><td>2-151200</td><td>250 PIV</td><td rowspan=2>Open Mining</td><td rowspan=2> Approx 180 Days</td></tr>
-<tr><td>151201-259200</td><td>50 PIV</td></tr>
-<tr><th colspan=4>PoS Phase</th></tr>
-<tr><th>Block Height</th><th colspan=3>Reward Amount</th></tr>
-<tr><td>259201-Infinite</td><td colspan=3>Variable based on <a href="https://pivx.org/knowledge-base/see-saw-rewards-mechanism/">SeeSaw Reward Mechanism</a></td></tr>
-</table>
+| **PoW Phase** | **Block Height**       | **Reward Amount** | **Notes**  |
+|---------------|------------------------|-------------------|------------|
+| 60,000 PIV    | Initial Premine 0 Days |                   |            |
+| 2-151200      | 250 PIV                | Mining - Approx 180 Days |     |
+| 151201-259200 | 50 PIV | | |
+| PoS Phase | | |
+| Block Height  | Reward Amount | | |
+| 259201-Inf    | Variable based on [ SeeSaw Reward Mechanism](https://pivx.org/knowledge-base/see-saw-rewards-mechanism) |
 
 ### PoW Rewards Breakdown
 
