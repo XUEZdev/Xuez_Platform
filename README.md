@@ -13,14 +13,13 @@ PIVX is a cutting edge cryptocurrency, with many features not available in most 
 More information at [pivx.org](http://www.pivx.org) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php?topic=1262920)
 
 ### Coin Specs
-<table>
-<tr><td>Algo</td><td>Quark</td></tr>
-<tr><td>Block Time</td><td>60 Seconds</td></tr>
-<tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoW Phase)</td><td>43,199,500 PIV</td></tr>
-<tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
-<tr><td>Premine</td><td>60,000 PIV*</td></tr>
-</table>
+| Algo                        |          Quark |
+|-----------------------------|----------------|
+| Block Time                  | 60 Seconds     |
+| Difficulty Retargeting      | Every Block    |
+| Max Coin Supply (PoW Phase) | 43,199,500 PIV |
+| Max Coin Supply (PoS Phase) | Infinite       |
+| Premine                     | 60,000 PIV*    |
 
 *60,000 PIV Premine was burned in block [279917](http://www.presstab.pw/phpexplorer/PIVX/block.php?blockhash=206d9cfe859798a0b0898ab00d7300be94de0f5469bb446cecb41c3e173a57e0)
 
