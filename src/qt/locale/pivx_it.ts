@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi PIVX per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your XUEZ addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi XUEZ per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi PIVX per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your XUEZ addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi XUEZ per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi PIV dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>XUEZ will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XUEZs from being stolen by malware infecting your computer.</source>
+        <translation>XUEZ verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi XUEZ dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI PIV&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XUEZ&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI XUEZ&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo Pivx che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a XUEZ Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo XUEZ che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>L'indirizzo PIVX per firmare il messaggio con</translation>
+        <source>The XUEZ address to sign the message with</source>
+        <translation>L'indirizzo XUEZ per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo PIVX</translation>
+        <source>Sign the message to prove you own this XUEZ address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo XUEZ</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>L'indirizzo PIVX con cui è stato firmato il messaggio</translation>
+        <source>The XUEZ address the message was signed with</source>
+        <translation>L'indirizzo XUEZ con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo PIVX specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified XUEZ address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo XUEZ specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,12 +594,12 @@
         <translation>XUEZ Core</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Invia monete all' indirizzo PIVX</translation>
+        <source>Send coins to a XUEZ address</source>
+        <translation>Invia monete all' indirizzo XUEZ</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e pivx: URIs)</translation>
+        <source>Request payments (generates QR codes and xuez: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e xuez: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,16 +618,16 @@
         <translation>Visualizza informazioni su XUEZ Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Modifica le opzioni di configurazione per PIVX</translation>
+        <source>Modify configuration options for XUEZ</source>
+        <translation>Modifica le opzioni di configurazione per XUEZ</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi PIVX per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your XUEZ addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi XUEZ per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi PIVX specifici</translation>
+        <source>Verify messages to ensure they were signed with specified XUEZ addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi XUEZ specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Apri un PIVX: URI o richiesta di pagamento</translation>
+        <source>Open a xuez: URI or payment request</source>
+        <translation>Apri un xuez: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the XUEZ Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Mostra il messaggio di aiuto XUEZ Core per ottenere un elenco con le possibili opzioni di riga di comando PIVX</translation>
+        <source>Show the XUEZ Core help message to get a list with possible XUEZ command-line options</source>
+        <translation>Mostra il messaggio di aiuto XUEZ Core per ottenere un elenco con le possibili opzioni di riga di comando XUEZ</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (pivx.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (pivx.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (xuez.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (xuez.conf)</translation>
     </message>
 </context>
 <context>
@@ -1144,8 +1144,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>L'indirizzo PIVX per firmare il messaggio con</translation>
+        <source>The XUEZ address to sign the message with</source>
+        <translation>L'indirizzo XUEZ per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1168,16 +1168,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo PIVX</translation>
+        <source>Sign the message to prove you own this XUEZ address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo XUEZ</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>L'indirizzo PIVX con cui è stato firmato il messaggio</translation>
+        <source>The XUEZ address the message was signed with</source>
+        <translation>L'indirizzo XUEZ con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo PIVX specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified XUEZ address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo XUEZ specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1311,10 +1311,10 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZXuezControlDialog</name>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>xuez-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

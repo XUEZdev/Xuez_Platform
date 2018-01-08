@@ -183,9 +183,9 @@
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZXuezControlDialog</name>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>xuez-core</name>
     </context>
 </TS>
