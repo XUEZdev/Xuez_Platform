@@ -25,36 +25,35 @@ More information at [pivx.org](http://www.pivx.org) Visit our ANN thread at [Bit
 
 ### Reward Distribution
 
-| **PoW Phase** | **Block Height**       | **Reward Amount** | **Notes**  |
-|---------------|------------------------|-------------------|------------|
-| 60,000 PIV    | Initial Premine 0 Days |                   |            |
-| 2-151200      | 250 PIV                | Mining - Approx 180 Days |     |
-| 151201-259200 | 50 PIV | | |
-| PoS Phase | | |
-| Block Height  | Reward Amount | | |
-| 259201-Inf    | Variable based on [ SeeSaw Reward Mechanism](https://pivx.org/knowledge-base/see-saw-rewards-mechanism) |
+#### PoW Phase Mining - Approx 180 Days
+|  **Block Height**       | **Reward Amount/Notes**  |
+|-------------------------|--------------------------|
+| 60,000 PIV              | Initial Premine 0 Days   |
+| 2-151200                | 250 PIV                  |
+| 151201-259200           | 50 PIV                   |
+#### PoS Phase
+| **Block Height**  | **Reward Amount** |
+| 259201-Infinite   | Variable based on [SeeSaw Reward Mechanism](https://pivx.org/knowledge-base/see-saw-rewards-mechanism) |
 
 ### PoW Rewards Breakdown
 
-<table>
-<th>Block Height</th><th>Masternodes</th><th>Miner</th><th>Budget</th>
-<tr><td>2-43200</td><td>20% (50 PIV)</td><td>80% (200 PIV)</td><td>N/A</td></tr>
-<tr><td>43201-151200</td><td>20% (50 PIV)</td><td>70% (200 PIV)</td><td>10% (25 PIV)</td></tr>
-<tr><td>151201-259200</td><td>45% (22.5 PIV)</td><td>45% (22.5 PIV)</td><td>10% (5 PIV)</td></tr>
-</table>
+| **Block Height**| **Masternodes** | **Miner** | **Budget** |
+|---------------|---------------|---------------|------------|
+| 2-43200       | 20% (50 PIV)  | 80% (200 PIV) | N/A |
+| 43201-151200  | 20% (50 PIV)  | 70% (200 PIV) | 10% (25 PIV) |
+| 151201-259200 | 45% (22.5 PIV)| 45% (22.5 PIV)| 10% (5 PIV) |
 
 ### PoS Rewards Breakdown
+| **Phase** | **Block Height** | **Reward** | **Masternodes & Stakers** | **Budget**    |
+|-----------|------------------|------------|---------------------------|---------------|
+| Phase 1   | 259201-302399    | 50 PIV     | 90% (45 PIV)              | 10% (5 PIV)   |
+| Phase 2   | 302400-345599    | 45 PIV     | 90% (40.5 PIV)            | 10% (4.5 PIV) |
+| Phase 3   | 345600-388799    | 40 PIV     | 90% (36 PIV)              | 10% (4 PIV)   |
+| Phase 4   | 388800-431999    | 35 PIV     | 90% (31.5 PIV)            | 10% (3.5 PIV) |
+| Phase 5   | 432000-475199    | 30 PIV     | 90% (27 PIV)              | 10% (3 PIV)   |
+| Phase 6   | 475200-518399    | 25 PIV     | 90% (22.5 PIV)            | 10% (2.5 PIV) |
+| Phase 7   | 518400-561599    | 20 PIV     | 90% (18 PIV)              | 10% (2 PIV)   |
+| Phase 8   | 561600-604799    | 15 PIV     | 90% (13.5 PIV)            | 10% (1.5 PIV) |
+| Phase 9   | 604800-647999    | 10 PIV     | 90% (9 PIV)               | 10% (1 PIV)   |
+| Phase X   | 648000-Infinite  | 5 PIV      | 90% (4.5 PIV)             | 10% (0.5 PIV) |
 
-<table>
-<th>Phase</th><th>Block Height</th><th>Reward</th><th>Masternodes & Stakers</th><th>Budget</th>
-<tr><td>Phase 1</td><td>259201-302399</td><td>50 PIV</td><td>90% (45 PIV)</td><td>10% (5 PIV)</td></tr>
-<tr><td>Phase 2</td><td>302400-345599</td><td>45 PIV</td><td>90% (40.5 PIV)</td><td>10% (4.5 PIV)</td></tr>
-<tr><td>Phase 3</td><td>345600-388799</td><td>40 PIV</td><td>90% (36 PIV)</td><td>10% (4 PIV)</td></tr>
-<tr><td>Phase 4</td><td>388800-431999</td><td>35 PIV</td><td>90% (31.5 PIV)</td><td>10% (3.5 PIV)</td></tr>
-<tr><td>Phase 5</td><td>432000-475199</td><td>30 PIV</td><td>90% (27 PIV)</td><td>10% (3 PIV)</td></tr>
-<tr><td>Phase 6</td><td>475200-518399</td><td>25 PIV</td><td>90% (22.5 PIV)</td><td>10% (2.5 PIV)</td></tr>
-<tr><td>Phase 7</td><td>518400-561599</td><td>20 PIV</td><td>90% (18 PIV)</td><td>10% (2 PIV)</td></tr>
-<tr><td>Phase 8</td><td>561600-604799</td><td>15 PIV</td><td>90% (13.5 PIV)</td><td>10% (1.5 PIV)</td></tr>
-<tr><td>Phase 9</td><td>604800-647999</td><td>10 PIV</td><td>90% (9 PIV)</td><td>10% (1 PIV)</td></tr>
-<tr><td>Phase X</td><td>648000-Infinite</td><td>5 PIV</td><td>90% (4.5 PIV)</td><td>10% (0.5 PIV)</td></tr>
-</table>
