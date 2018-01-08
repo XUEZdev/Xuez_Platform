@@ -26,11 +26,13 @@ More information at [pivx.org](http://www.pivx.org) Visit our ANN thread at [Bit
 ### Reward Distribution
 
 #### PoW Phase Mining - Approx 180 Days
+
 |  **Block Height**       | **Reward Amount/Notes**  |
 |-------------------------|--------------------------|
 | 60,000 PIV              | Initial Premine 0 Days   |
 | 2-151200                | 250 PIV                  |
 | 151201-259200           | 50 PIV                   |
+
 #### PoS Phase
 | **Block Height**  | **Reward Amount** |
 | 259201-Infinite   | Variable based on [SeeSaw Reward Mechanism](https://pivx.org/knowledge-base/see-saw-rewards-mechanism) |
