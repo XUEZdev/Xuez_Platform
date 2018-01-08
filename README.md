@@ -24,7 +24,7 @@ More information at [pivx.org](http://www.pivx.org) Visit our ANN thread at [Bit
 *60,000 PIV Premine was burned in block [279917](http://www.presstab.pw/phpexplorer/PIVX/block.php?blockhash=206d9cfe859798a0b0898ab00d7300be94de0f5469bb446cecb41c3e173a57e0)
 
 ### Reward Distribution
-
+{::nomarkdown}
 <table>
 <th colspan=4>PoW Phase</th>
 <tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th><th>Duration (Days)</th></tr>
@@ -35,7 +35,7 @@ More information at [pivx.org](http://www.pivx.org) Visit our ANN thread at [Bit
 <tr><th>Block Height</th><th colspan=3>Reward Amount</th></tr>
 <tr><td>259201-Infinite</td><td colspan=3>Variable based on <a href="https://pivx.org/knowledge-base/see-saw-rewards-mechanism/">SeeSaw Reward Mechanism</a></td></tr>
 </table>
-
+{:/}
 ### PoW Rewards Breakdown
 
 <table>
