@@ -21,7 +21,7 @@ More information at [xuezcoin.com](http://www.xuez.com) Visit our ANN thread at 
 | Premine                      | 60,000 XUEZ*    |
 
 ### Reward Distribution PoW/PoS
-Variable based on SeeSaw [Reward Mechanism](https://pivx.org/knowledge-base/see-saw-rewards-mechanism}
+Variable based on SeeSaw [Reward Mechanism](https://pivx.org/knowledge-base/see-saw-rewards-mechanism)
 
 #### PoW Mining 
 
