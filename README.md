@@ -13,27 +13,27 @@ XUEZ is a cutting edge cryptocurrency, with many features not available in most 
 More information at [xuezcoin.com](http://www.xuez.com) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php?topic=xxxxxxx)
 
 ### Coin Specs
-| Algo                         | Quark |
-|------------------------------|-----------------|
-| Block Time                   | 60 Seconds      |
-| Difficulty Retargeting       | Every Block     |
-| Max Coin Supply (All Phases) | ?????? XUEZ |
-| Premine                      | 60,000 XUEZ*    |
+| Algo                         | Quark              |
+|------------------------------|--------------------|
+| Block Time                   | 60 Seconds         |
+| Difficulty Retargeting       | Every Block        |
+| Max Coin Supply (All Phases) | 21M XUEZ           |
+| XIOS swap coins              | 2,446,202 XUEZ*    |
 
 ### Reward Distribution PoW/PoS
 Variable based on SeeSaw [Reward Mechanism](https://pivx.org/knowledge-base/see-saw-rewards-mechanism)
 
 #### PoW Mining 
 
-|  **Block Height**       | **Reward Amount/Notes**  |
-|-------------------------|--------------------------|
-| 60,000 XUEZ             | Initial Premine 0 Days   |
-| 2-Infinite              | 1 XUEZ                   |
+|  **Block Height**       | **Reward Amount/Notes**  | **Budget**     |
+|-------------------------|--------------------------|----------------|
+| 2,446,202 XUEZ          | Initial XIOS swap 0 Day  | NA             |
+| 2-Infinite              | 1 XUEZ                   | 10% (0.1 XUEZ) |
 
 ### PoW/PoS Rewards Breakdown
 
-| **Block Height**| **Masternodes** | **PoS**  |
-|---------------|----------------|---------------|------------|
-| 2-Infinite       | 75% (0.75 XUEZ)  | 25% (0.25 XUEZ) |
+| **Block Height**| **Masternodes** | **PoS**          | **Budget**     |
+|-----------------|-----------------|------------------|----------------|
+| 2-Infinite      | 60% (0.6 XUEZ)  | 30% (0.3 XUEZ)   | 10% (0.1 XUEZ) |
 
 
