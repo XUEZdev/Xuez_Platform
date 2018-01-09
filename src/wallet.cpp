@@ -1801,6 +1801,7 @@ bool CWallet::MintableCoins()
             nTxTime = mapBlockIndex.at(out.tx->hashBlock)->GetBlockTime();
         }
 
+        //check for min age
         if (GetAdjustedTime() - nTxTime > nStakeMinAge)
             return true;
     }

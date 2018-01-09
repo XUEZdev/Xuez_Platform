@@ -1,5 +1,6 @@
 // Copyright (c) 2014-2016 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2017-2018 The XUEZ developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +13,7 @@
 #include "spork.h"
 
 //
-// Bootup the Masternode, look for a 1000 XUEZ input and register on the network
+// Bootup the Masternode, look for a XUEZ collateral input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {
