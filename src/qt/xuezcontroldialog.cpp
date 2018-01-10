@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zxuezcontroldialog.h"
-#include "ui_zxuezcontroldialog.h"
+#include "xuezcontroldialog.h"
+#include "ui_xuezcontroldialog.h"
 
 #include "main.h"
 #include "walletmodel.h"
