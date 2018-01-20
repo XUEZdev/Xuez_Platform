@@ -5,7 +5,7 @@ todo.txt
 reset-files.bash
 
 *.tar.gz
-
+*-orig.png
 *.exe
 src/xuez
 src/xuezd
