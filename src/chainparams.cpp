@@ -116,7 +116,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // XUEZ: 1 day
         nTargetSpacing = 1 * 60;  // XUEZ: 1 minute
-        nMaturity = 100;
+        nMaturity = 10;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 21000000 * COIN;
 
@@ -238,7 +238,7 @@ public:
         nTargetTimespan = 1 * 60; // XUEZ: 1 day
         nTargetSpacing = 1 * 60;  // XUEZ: 1 minute
         nLastPOWBlock = 100000;
-        nMaturity = 15;
+        nMaturity = 10;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 1;
         nMaxMoneyOut = 21000000 * COIN;
