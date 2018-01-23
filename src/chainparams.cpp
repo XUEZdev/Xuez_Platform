@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x00000893cf9d92ce864b6982d1721cdacb7fff9349f8a7981ce29f4461432566"));
+    (0, uint256("0x0000050b3a89c526ccc59850150a807c538753cea1d1e3ac9e3650cbf6790fba"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -76,7 +76,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1516469190,
+    1516731546,
     0,
     100};
 
@@ -124,7 +124,7 @@ public:
         nLastPOWBlock = 50000;
         nModifierUpdateBlock = 1;
         nZerocoinStartHeight = 1000;
-        nZerocoinStartTime = 1516469190 + 86400; // 1 day after genesis
+        nZerocoinStartTime = 1516731546 + 86400; // 1 day after genesis
         nBlockEnforceSerialRange = 1003; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = 1005; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 1001; //First block that bad serials emerged
@@ -135,7 +135,7 @@ public:
          * Build the genesis block. Note that the output of the genesis coinbase cannot
          * be spent as it did not originally exist in the database.
          *
-         * python ~/genesis.py -a quark-hash -z "20 Jan 2018 - European Central Bank to Discuss Bitcoin and Blockchain With Youth" -t 1516469190 -v 0 -p 041e2be616cdaadb196b3d15c9587dbf0f5803c04c1df97cc01699cbb7462b90d9efee0d4c4b45b63419d83013c33fa3710cd71f0e0b8f4232ba76877ecb08c847
+         * python ~/genesis.py -a quark-hash -z "20 Jan 2018 - European Central Bank to Discuss Bitcoin and Blockchain With Youth" -t 1516731546 -v 0 -p 041e2be616cdaadb196b3d15c9587dbf0f5803c04c1df97cc01699cbb7462b90d9efee0d4c4b45b63419d83013c33fa3710cd71f0e0b8f4232ba76877ecb08c847
          * 04ffff001d01044c503230204a616e2032303138202d204575726f7065616e2043656e7472616c2042616e6b20746f204469736375737320426974636f696e20616e6420426c6f636b63686169
          * algorithm: quark-hash
          * merkle hash: 3b28a5dd54fbdaebe80e77105420497f42753bc00733689f173261da735fa149
@@ -145,7 +145,7 @@ public:
          * bits: 0x1e0ffff0
          * Searching for genesis hash..
          * 16525.0 hash/s, estimate: 72.2 hgenesis hash found!
-         * nonce: 20745069
+         * nonce: 24032590
          * genesis_hash: 00000893cf9d92ce864b6982d1721cdacb7fff9349f8a7981ce29f4461432566
          */
         const char* pszTimestamp = "20 Jan 2018 - European Central Bank to Discuss Bitcoin and Blockchain With Youth";
@@ -159,13 +159,13 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1516469190;
+        genesis.nTime = 1516731546;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 20745069;
+        genesis.nNonce = 24032590;
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x00000893cf9d92ce864b6982d1721cdacb7fff9349f8a7981ce29f4461432566"));
+        assert(hashGenesisBlock == uint256("0x0000050b3a89c526ccc59850150a807c538753cea1d1e3ac9e3650cbf6790fba"));
         assert(genesis.hashMerkleRoot == uint256("0x3b28a5dd54fbdaebe80e77105420497f42753bc00733689f173261da735fa149"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 75); // X
@@ -243,7 +243,7 @@ public:
         nModifierUpdateBlock = 1;
         nMaxMoneyOut = 21000000 * COIN;
         nZerocoinStartHeight = 201576;
-        nZerocoinStartTime = 1516469190 + 86400; // 24 hours after genesis block
+        nZerocoinStartTime = 1516731546 + 86400; // 24 hours after genesis block
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = 1005; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 1001; //First block that bad serials emerged
@@ -251,11 +251,11 @@ public:
         nBlockEnforceInvalidUTXO = 1005; //Start enforcing the invalid UTXO's
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1516469190;
-        genesis.nNonce = 20745069;
+        genesis.nTime = 1516731546;
+        genesis.nNonce = 24032590;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000893cf9d92ce864b6982d1721cdacb7fff9349f8a7981ce29f4461432566"));
+        assert(hashGenesisBlock == uint256("0x0000050b3a89c526ccc59850150a807c538753cea1d1e3ac9e3650cbf6790fba"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -316,13 +316,13 @@ public:
         nTargetTimespan = 24 * 60 * 60; // XUEZ: 1 day
         nTargetSpacing = 1 * 60;        // XUEZ: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1516469190;
+        genesis.nTime = 1516731546;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 20542301;
+        genesis.nNonce = 20542306;
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 51476;
-        assert(hashGenesisBlock == uint256("0x533acabafd3a7dc917d5d38fb9c2d8551b6d9b927709fba60a4de1c6da37def7"));
+        assert(hashGenesisBlock == uint256("0x765537e9efb5834caa0ba04fdad8c95bc0b46814f580cdae9dd42be55a0f2f1d"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
