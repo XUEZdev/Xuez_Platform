@@ -88,9 +88,9 @@ as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
 
- -mmacosx-version-min=10.7
+ -mmacosx-version-min=10.10
  -arch x86_64
- -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+ -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk
 
 Once dependencies are compiled, see release-process.md for how the XUEZ-Qt.app
 bundle is packaged and signed to create the .dmg disk image that is distributed.
